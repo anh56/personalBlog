@@ -1,0 +1,33 @@
+<%@page import="java.io.Writer"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li class="dropdown"><a class="dropbtn" href="About.html">About
+                me</a>
+            <div class="dropdown-content">
+                <a href="Future.html">Future plans</a> <a href="Hobbies.html">Hobbies</a>
+                <a href="Contacts.html">Contacts</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a class="dropbtn" href="CV.html">Portfolio</a>
+            <div class="dropdown-content">
+                <a href="Achieve.html">Achievements</a>
+                <a href="Experience.html">Experience</a>
+            </div>
+        </li>
+        <li style="float: right"><a class="login" href="Login.jsp">Login</a></li>
+    </ul>
+    <h3> Error: Wrong User name or Password</h3>
+</body>
+</html>
